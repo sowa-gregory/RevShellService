@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\teamredsmall.png" />
+    <None Include="start.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
